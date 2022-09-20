@@ -19,3 +19,22 @@ export const Video = item => {
  </div>
   `;
 };
+
+// Input select element that is used to filter some content - in this case videos
+// takes an array of possible options
+export function CategorySelector(options) {
+  return(
+    `
+    <div class="form-group">
+      <label for="category">
+        Filter By Category
+        <i class="bi bi-funnel-fill"></i>
+      </label>
+      <select class="form-control" id="video-filter">
+          ${options.map(o => `<option value="${o}">${o}</option>`).join('')}
+      </select>
+    </div>
+    `
+  );
+
+}

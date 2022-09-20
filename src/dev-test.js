@@ -6,6 +6,7 @@ import App from './app.js';
 const init = async () => {
   const app = new App();
   app.showContent();
+  app.createVideoSelector();
   app.showVideos();
 };
 
