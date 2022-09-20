@@ -34,7 +34,9 @@ class App {
   async showVideos() {
     const videos = await this.getVideos();
     videos.forEach(v => {
-      $('#videos').append(Video(v));
+      if(v.category === 'Category 1'){
+        $('#videos').append(Video(v));
+      }
     });
   }
 }
