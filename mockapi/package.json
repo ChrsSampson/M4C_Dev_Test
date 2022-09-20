@@ -1,0 +1,14 @@
+{
+  "name": "mockapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rob Wood <rob.wood@forchange.agency> (https://marketingforchange.com/)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "multer": "^1.4.3"
+  }
+}
