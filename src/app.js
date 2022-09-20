@@ -15,7 +15,7 @@ class App {
     return $.get(`http://localhost:3000/content${q ? `?${q}` : ''}`);
   }
 
-  showContent() {
+  async showContent() {
     const rows = await Promise.all([
       this.getContent('row=1'),
       this.getContent('row=2'),
@@ -32,7 +32,7 @@ class App {
   }
 
   async showVideos() {
-    const videos = this.getVideos();
+    const videos = await this.getVideos();
     videos.forEach(v => {
       $('#videos').append(Video(v));
     });
