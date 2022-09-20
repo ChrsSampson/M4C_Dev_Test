@@ -1,0 +1,60 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "name": "Video 1",
+      "youtube_id": "6hcMgYqPqEk",
+      "category": "Category 1"
+    },
+    {
+      "id": 2,
+      "name": "Video 2",
+      "youtube_id": "Wfcdqyp2oI0",
+      "category": "Category 1"
+    },
+    {
+      "id": 3,
+      "name": "Video 3",
+      "youtube_id": "xTuVIjyo-0I",
+      "category": "Category 2"
+    },
+    {
+      "id": 4,
+      "name": "Video 4",
+      "youtube_id": "KbgzylH_YWs",
+      "category": "Category 2"
+    },
+    {
+      "id": 5,
+      "name": "Video 5",
+      "youtube_id": "CcVsKEiwbkc",
+      "category": "Category 2"
+    }
+  ],
+  "content": [
+    {
+      "id": 1,
+      "title": "Content 1",
+      "text": "Content 1 text is here.",
+      "row": 1
+    },
+    {
+      "id": 2,
+      "title": "Content 2",
+      "text": "Content 2 text is here.",
+      "row": 1
+    },
+    {
+      "id": 3,
+      "title": "Content 3",
+      "text": "Content 3 text is here.",
+      "row": 2
+    },
+    {
+      "id": 4,
+      "title": "Content 4",
+      "text": "Content 4 text is here.",
+      "row": 2
+    }
+  ]
+}
